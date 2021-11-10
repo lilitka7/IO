@@ -79,7 +79,7 @@ Osoba chcąca zakupić produkt na aukcji.
 <a id="uc2"></a>
 ### UC2: ...
 
-**Aktorzy:** [Sprzedający](#ac1), [Kupujący](#ac2), ...
+**Aktorzy:** [Sprzedający](#ac1), [Kupujący](#ac2)
 
 **Scenariusz główny:**
 1. ...
@@ -91,7 +91,7 @@ Osoba chcąca zakupić produkt na aukcji.
 
 ---
 
-## Obiewkty biznesowe (inaczje obiekty dziedzinowe lub informatycjne)
+## Obiekty biznesowe (inaczje obiekty dziedzinowe lub informatycjne)
 
 ### BO1: Aukcja
 
@@ -117,8 +117,13 @@ Aukcję wygrywa ten z [Kupujący](#ac2)ch, który w momencie jej zakończenia (u
 ## Macierz CRUDL
 
 
-| Przypadek użycia                                  | Aukcja | Produkt | ... |
-| ------------------------------------------------- | ------ | ------- | --- |
-| UC1: Wystawienia produktu na aukcję               |    C   |    C    | ... |
-| ???                                               |  ...   |  ...    | ... |
+| Przypadek użycia                                  | Aukcja | Produkt | Oferta |
+| ------------------------------------------------- | ------ | ------- | ---     |
+| UC1: Wystawienia produktu na aukcję               |    C   |    C    |        |
+| UC2: Przebicie oferty                             |        |         | U/R    |
+| UC3: Przekazanie należności                       |        |         |U    |
+| UC4/BR2: Roztrzygnięcie aukcji (przegrana)        |D      |          |      |
+| UC5/BR2: Rozstrzygnięcie aukcji (wygrana)         |D      |           |     |
+| UC6/BR1: Złożenie oferty                          |       |           |C      |
+| UC7: Przekazanie produktu                         |       |   D       |       |
 

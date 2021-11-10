@@ -233,7 +233,7 @@ Aukcję wygrywa ten z [Kupujący](#ac2)ch, który w momencie jej zakończenia (u
 | UC1: Wystawienia produktu na aukcję               |    C   |    C    |        |
 | UC2: Przebicie oferty                             |   UR     |         | UR    |
 | UC3: Przekazanie należności                       |        |         |U    |
-| UC4/BR2: Rozstrzygnięcie aukcji (przegrana)        |D      |          |      |
+| UC4/BR2: Rozstrzygnięcie aukcji        |D      |          |      |
 | UC5/BR1: Złożenie oferty                          |  UR     |           |C      |
 | UC6: Przekazanie produktu                         |       |   D       |       |
 

@@ -1,2 +1,1 @@
-IOD-I21-YukhnevichE
-Created by Elvira Yukhnevich
+5sem
